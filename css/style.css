@@ -1,0 +1,124 @@
+:root{
+    --color-primary: #ce1212;
+    --color-primary-hover: rgba(206, 18, 18, 0.8);
+}
+
+.bg-primary{
+    background-color: var(--color-primary) !important;
+}
+
+.btn-primary{
+    background-color: var(--color-primary);
+    border: var(--color-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:active{
+    background-color: var(--color-primary-hover) !important;
+    border-color: var(--color-primary-hover) !important;
+}
+
+.text-primary{
+    color: var(--color-primary) !important;
+}
+
+.font-amatic{
+    font-family: 'Amatic SC', sans-serif;
+} 
+
+/* --------------------------------------------------------------------------- */
+.navbar-toggler,
+.navbar-toggler:hover,
+.navbar-toggler:focus
+{
+    border: none;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.nav-link{
+    font-size: 16px;
+    color: #7f7f90;
+    font-weight: 600;
+    position: relative;
+    margin: 0 16px;
+}
+
+.nav-link:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background-color: var(--color-primary);
+    width: 0;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+    
+}
+
+.nav-link.active:after,
+.nav-link:hover:after
+{
+    width: 100%;
+}
+/* -------------------------------------------------------------------------- */
+/* main section */
+
+main{
+    min-height: 60vh;
+    padding-top: 160px;
+    padding-bottom: 60px;
+}
+
+main .lightbox-btn{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+main .lightbox-btn:hover{
+    color: var(--color-primary);
+}
+
+main .lightbox-btn i {
+    font-size: 30px;
+    color: var(--color-primary);
+}
+
+.lightbox-box{
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.90);
+}
+/* ------------------------------------------------------------------------------ */
+
+.photo-div{
+    min-height: 500px;
+    background-image: url(../img/about.jpg);
+}
+
+.about-us .call-us{
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+}
+
+.arrow-right{
+    width: 50px;
+    height: 50px;
+    box-sizing: content-box;
+}
+.arrow-right:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-15%, -50%);
+}
+
+.about-us .play-btn,
+.about-us .play-btn:active{
+    border: 20px solid rgba(206, 18, 18, 0.5);
+}

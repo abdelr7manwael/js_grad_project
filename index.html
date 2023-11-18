@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-sm py-4">
+        <div class="container">
+          <a class="navbar-brand fs-4 fw-bold p-0" href="#">Yummy <span class="text-danger">.</span> </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Chefs</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-primary rounded-pill">Book a Table</button>
+        </div>
+    </nav>
+
+
+    <main class="bg-secondary-subtle">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-5 mb-5">
+                    <h2 class="font-amatic display-1">Enjoy Your Healthy
+                        Delicious Food
+                    </h2>
+                    <p>Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+                    <div class="d-flex column-gap-3">
+                        <button class="btn btn-primary py-2 px-4 shadow-lg rounded-pill">Book A Table</button>
+                        <button id="lightbox-btn" class="lightbox-btn btn rounded-pill border-0 d-flex align-items-center column-gap-2">
+                            <i class="fa-regular fa-circle-play"></i>
+                            Watch Video
+                        </button>
+                    </div>
+                
+                </div>
+                <div class="col-lg-5">
+                    <img class="img-fluid" src="img/hero-img.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section id="lightbox-box" class="d-none lightbox-box position-fixed w-100 h-100 top-0  py-3 px-4">
+        <div class="position-relative h-100">
+            <button id="lightbox-close" class="btn btn-dark position-absolute top-0 end-0">
+            <i class="fa-solid fa-xmark fs-3 text-light"></i>
+            </button>
+            <div class="container h-100">
+                <div class="row h-100 justify-content-center align-items-center">
+                    <iframe width="500" height="600" src="https://www.youtube.com/embed/LXb3EKWsInQ" title="COSTA RICA IN 4K 60fps HDR (ULTRA HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="about-us py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <p class="text-muted">ABOUT US</p>
+                <h2 class="font-amatic display-5">Learn More <span class="text-primary">About Us</span></h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="photo-div h-100 position-relative px-3 py-2">
+                        <div class="call-us position-absolute bg-light text-center p-3">
+                            <h3>Book A Table</h3>
+                            <h3 class="text-primary">+1 5589 55488 55</h3>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <p class="mb-3 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <ul class="p-0">
+                        <li class="d-flex column-gap-3">
+                            <i class="fa-solid fa-check-double text-primary"></i>
+                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </li>
+
+                        <li class="d-flex column-gap-3">
+                            <i class="fa-solid fa-check-double text-primary"></i>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+                        </li>
+
+                        <li class="d-flex column-gap-3">
+                            <i class="fa-solid fa-check-double text-primary"></i>
+                            <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</p>
+                        </li>
+                    </ul>
+                    <p class="mb-3">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident </p>
+
+                    <div class="position-relative">
+                        <div class="position-absolute top-50 start-50 translate-middle">
+                            <button class="btn lightbox-btn play-btn p-0 rounded-circle">
+                                    <div class="arrow-right bg-primary rounded-circle position-relative"></div>
+                            </button>
+                        </div>
+                        <img class="img-fluid" src="img/about-2.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
