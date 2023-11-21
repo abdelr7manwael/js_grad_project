@@ -26,6 +26,11 @@
     font-family: 'Amatic SC', sans-serif;
 } 
 
+
+.menu-img{
+    padding-right: 60px;
+    padding-left: 60px;
+}
 /* --------------------------------------------------------------------------- */
 .navbar-toggler,
 .navbar-toggler:hover,
@@ -42,6 +47,14 @@
     font-weight: 600;
     position: relative;
     margin: 0 16px;
+    padding-left: 0 !important;
+    padding-right:0 !important ;
+    cursor: pointer;
+}
+
+.nav-link:hover,    
+.nav-link.active{
+    color: var(--color-primary);   
 }
 
 .nav-link:after{
