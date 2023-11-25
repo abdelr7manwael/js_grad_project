@@ -7,6 +7,10 @@
     background-color: var(--color-primary) !important;
 }
 
+.border-primary{
+    border-color: var(--color-primary) !important;
+}
+
 .btn-primary{
     background-color: var(--color-primary);
     border: var(--color-primary);
@@ -134,4 +138,82 @@ main .lightbox-btn i {
 .about-us .play-btn,
 .about-us .play-btn:active{
     border: 20px solid rgba(206, 18, 18, 0.5);
+}
+/* ----------------------------------------------------- */
+
+.stats-counter{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+     rgba(0, 0, 0, 0.5)), url(../img/stats-bg.jpg) center center;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* --------------------------------------------------------------------------- */
+.slider{
+    height: 650px !important;
+}
+
+.fade-animation{
+    animation-name: fade;
+    animation-duration: 1s;
+
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0.4;
+    }
+
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+/* --------------------------------------------------------------------------- */
+
+.swipe-left{
+    animation-name: swipe-left;
+    animation-duration: 0.5s;
+
+}
+
+@keyframes swipe-left {
+    0%{
+        transform: translateX(105%);
+    }
+
+    100%{
+        transform: translateX(0%);
+
+    }
+    
+}
+
+.swipe-right{
+    animation-name: swipe-right;
+    animation-duration: 0.5s;
+
+}
+
+@keyframes swipe-right {
+    0%{
+        transform: translateX(-105%);
+    }
+
+    100%{
+        transform: translateX(0%);
+
+    }
+    
+}
+
+
+/* ------------------------------------------------------------- */
+.circle-wh{
+    width: 50px;
+    height: 50px;
 }
